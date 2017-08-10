@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		86805EDB1F3D0E9C00E6D953 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86805EDA1F3D0E9C00E6D953 /* AppDelegate.swift */; };
-		86805EDD1F3D0E9C00E6D953 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86805EDC1F3D0E9C00E6D953 /* ViewController.swift */; };
 		86805EDF1F3D0E9C00E6D953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86805EDE1F3D0E9C00E6D953 /* Assets.xcassets */; };
 		86805EE21F3D0E9C00E6D953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86805EE01F3D0E9C00E6D953 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -16,7 +15,6 @@
 /* Begin PBXFileReference section */
 		86805ED71F3D0E9C00E6D953 /* TrainTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86805EDA1F3D0E9C00E6D953 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		86805EDC1F3D0E9C00E6D953 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		86805EDE1F3D0E9C00E6D953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86805EE11F3D0E9C00E6D953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86805EE31F3D0E9C00E6D953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				86805EDA1F3D0E9C00E6D953 /* AppDelegate.swift */,
-				86805EDC1F3D0E9C00E6D953 /* ViewController.swift */,
 				86805EDE1F3D0E9C00E6D953 /* Assets.xcassets */,
 				86805EE01F3D0E9C00E6D953 /* Main.storyboard */,
 				86805EE31F3D0E9C00E6D953 /* Info.plist */,
@@ -132,7 +129,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86805EDD1F3D0E9C00E6D953 /* ViewController.swift in Sources */,
 				86805EDB1F3D0E9C00E6D953 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +284,7 @@
 				86805EE81F3D0E9C00E6D953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
