@@ -5,18 +5,18 @@ class StatusMenuController: NSObject {
     
     let statusItem = NSStatusBar.system().statusItem(withLength: NSVariableStatusItemLength)
     var timer: Timer?
-    var x = 0
     
     override func awakeFromNib() {
-        statusItem.title = "TrainTime: ??"
+        statusItem.title = "Time until next train: ??"
         statusItem.menu = statusMenu
         
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTrainTime), userInfo: nil, repeats: true)
     }
     
     func updateTrainTime() {
-        statusItem.title = "TrainTime: \(x)"
-        x += 1
+        let nextTime = nextTrainTime(times: trainTimesAscending)
+        let timeRemaining = timeUntil(time: nextTime)
+        statusItem.title = "Time until next train: \(timeRemaining)"
     }
     
     @IBAction func quitClicked(_ sender: Any) {

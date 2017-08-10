@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		868014921F3D219500F71750 /* TrainTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868014911F3D219500F71750 /* TrainTimes.swift */; };
+		868014941F3D23A000F71750 /* TimeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868014931F3D23A000F71750 /* TimeCalculator.swift */; };
 		86805EDB1F3D0E9C00E6D953 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86805EDA1F3D0E9C00E6D953 /* AppDelegate.swift */; };
 		86805EDF1F3D0E9C00E6D953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86805EDE1F3D0E9C00E6D953 /* Assets.xcassets */; };
 		86805EE21F3D0E9C00E6D953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86805EE01F3D0E9C00E6D953 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		868014911F3D219500F71750 /* TrainTimes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainTimes.swift; sourceTree = "<group>"; };
+		868014931F3D23A000F71750 /* TimeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeCalculator.swift; sourceTree = "<group>"; };
 		86805ED71F3D0E9C00E6D953 /* TrainTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86805EDA1F3D0E9C00E6D953 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86805EDE1F3D0E9C00E6D953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				86805EDE1F3D0E9C00E6D953 /* Assets.xcassets */,
 				86805EE01F3D0E9C00E6D953 /* Main.storyboard */,
 				86805EE31F3D0E9C00E6D953 /* Info.plist */,
+				868014911F3D219500F71750 /* TrainTimes.swift */,
+				868014931F3D23A000F71750 /* TimeCalculator.swift */,
 			);
 			path = TrainTime;
 			sourceTree = "<group>";
@@ -132,8 +138,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				868014941F3D23A000F71750 /* TimeCalculator.swift in Sources */,
 				86805EEA1F3D120A00E6D953 /* StatusMenuController.swift in Sources */,
 				86805EDB1F3D0E9C00E6D953 /* AppDelegate.swift in Sources */,
+				868014921F3D219500F71750 /* TrainTimes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
