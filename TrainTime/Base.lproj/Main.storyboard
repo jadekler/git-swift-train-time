@@ -18,7 +18,7 @@
                                         <menuItem title="Quit" id="CDv-gv-Sgr">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
-                                                <action selector="quitClicked:" target="Voe-Tx-rLC" id="9dz-OD-rDd"/>
+                                                <action selector="quitClicked:" target="Voe-Tx-rLC" id="NtC-HZ-yKU"/>
                                             </connections>
                                         </menuItem>
                                     </items>
@@ -30,9 +30,9 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="TrainTime" customModuleProvider="target">
+                <customObject id="Voe-Tx-rLC" customClass="StatusMenuController" customModule="TrainTime" customModuleProvider="target">
                     <connections>
-                        <outlet property="statusMenu" destination="uQy-DD-JDr" id="CfF-LX-1qS"/>
+                        <outlet property="statusMenu" destination="uQy-DD-JDr" id="pV9-eb-Dnd"/>
                     </connections>
                 </customObject>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
