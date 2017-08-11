@@ -13,7 +13,12 @@ func timeUntil(time: String) -> String {
     let futureDate = dateTimeFormatter.date(from: "\(currentDateString) \(time)")!
     
     let diff = calendar.dateComponents([.hour, .minute, .second], from: now, to: futureDate)
-    return "\(diff.hour!):\(diff.minute!):\(diff.second!)"
+    
+    let prettyHour = String(format: "%02d", diff.hour!)
+    let prettyMinute = String(format: "%02d", diff.minute!)
+    let prettySecond = String(format: "%02d", diff.second!)
+    
+    return "\(prettyHour):\(prettyMinute):\(prettySecond)"
 }
 
 func timeIsInFuture(time: String) -> Bool {

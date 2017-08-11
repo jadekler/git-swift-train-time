@@ -7,7 +7,7 @@ class StatusMenuController: NSObject {
     var timer: Timer?
     
     override func awakeFromNib() {
-        statusItem.title = "Time until next train: ??"
+        statusItem.title = "??"
         statusItem.menu = statusMenu
         
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTrainTime), userInfo: nil, repeats: true)
@@ -16,7 +16,7 @@ class StatusMenuController: NSObject {
     func updateTrainTime() {
         let nextTime = nextTrainTime(times: trainTimesAscending)
         let timeRemaining = timeUntil(time: nextTime)
-        statusItem.title = "Time until next train: \(timeRemaining)"
+        statusItem.title = "\(timeRemaining)"
     }
     
     @IBAction func quitClicked(_ sender: Any) {
